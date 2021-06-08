@@ -1,0 +1,14 @@
+.main-content {
+    overflow: auto;
+}
+
+.main {
+    height: calc(100% - 64px);
+    display: flex;
+}
+
+mat-card {
+    flex-grow: 1;
+    height: 100%;
+    overflow: auto;
+}
